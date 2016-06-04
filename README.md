@@ -8,7 +8,7 @@ Currently it only supports `pacman`. `apt` support is on schedule.
 
 ## Quick start
 
-### Put smartpkg.cmake under your module path
+### Put filepkg.cmake under your module path
 
 If you haven't set `CMAKE_MODULE_PATH`, the following line would set `{your_source_dir}/cmake/Modules` as an available module path where `filepkg.cmake` should be located.
 

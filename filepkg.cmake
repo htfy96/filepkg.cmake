@@ -12,11 +12,11 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 
-if (SMARTPKG_DONE)
+if (FILEPKG_DONE)
     return()
 endif()
 
-set(SMARTPKG_DONE ON)
+set(FILEPKG_DONE ON)
 
 set(INSTALL_FILE_AUTOCONFIRM OFF CACHE BOOL)
 
