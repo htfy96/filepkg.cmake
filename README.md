@@ -2,7 +2,7 @@
 
 CMake library providing package query&install based on file pattern.
 
-Currently it only supports `pacman`. `apt` support is on schedule.
+Currently it supports `pacman` and `apt`. Patches are welcomed.
 
 ![ScreenShot](https://github.com/htfy96/filepkg.cmake/raw/master/screenshot.gif)
 
@@ -20,7 +20,7 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/Modules/")
 
 ```
 include(filepkg)
-INSTALL_FILE(*/mysql/mysql.h)
+INSTALL_FILE(/mysql/mysql.h)
 ```
 
 if this step failed, `INSTALL_FILE_FAILED` would be set.
