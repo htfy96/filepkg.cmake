@@ -21,6 +21,7 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/Modules/")
 ```
 include(filepkg)
 INSTALL_FILE(/mysql/mysql.h)
+# NOTE: In latest version prefix * is not accepted any more
 ```
 
 if this step failed, `INSTALL_FILE_FAILED` would be set.
